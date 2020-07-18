@@ -7,5 +7,5 @@ jobs:
     - stage: Build
       script:
         - cd helloworld
-        - build.sh
+        - ./build.sh
         - cd ..
