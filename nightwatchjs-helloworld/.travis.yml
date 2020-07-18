@@ -6,6 +6,6 @@ jobs:
   include:
     - stage: Build
       script:
-        - cd helloworld
+        - cd nightwatchjs-hellworld
         - ./build.sh
         - cd ..
