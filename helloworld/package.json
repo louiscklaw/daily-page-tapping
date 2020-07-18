@@ -1,0 +1,19 @@
+{
+  "name": "HKEX",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "puppeteer": "^5.2.0"
+  }
+}

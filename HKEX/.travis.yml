@@ -1,0 +1,10 @@
+# https://docs.travis-ci.com/user/docker/
+# https://docs.travis-ci.com/user/environment-variables/
+# https://docs.travis-ci.com/user/job-lifecycle/
+
+jobs:
+  include:
+    - stage: Build
+      script:
+        - yarn
+        - yarn build
